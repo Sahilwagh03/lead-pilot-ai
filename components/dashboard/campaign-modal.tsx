@@ -77,6 +77,7 @@ export default function CreateCampaignModal({
             placeholder="Enter campaign name"
             value={campaignName}
             onChange={(e) => setCampaignName(e.target.value)}
+            className="h-9"
           />
         </div>
 

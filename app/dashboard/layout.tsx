@@ -1,4 +1,4 @@
-'use client";'
+'use client";';
 import { ReactNode } from "react";
 import { AppSidebar } from "@/components/app-sidebar";
 import { Separator } from "@/components/ui/separator";
@@ -7,6 +7,7 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar";
+import { DynamicBreadcrumb } from "@/components/dynamicBreadcrumb";
 // import { DynamicBreadcrumb } from "@/components/dynamicBreadcrumb";
 // import { ModeToggle } from "@/components/theme-toggle";
 
@@ -24,9 +25,8 @@ function DashboardLayout({ children }: Props) {
             <div className="flex flex-row items-center gap-2">
               <SidebarTrigger className="-ml-1" />
               <Separator orientation="vertical" className="mr-2 h-4" />
-              {/* <DynamicBreadcrumb /> */}
+              <DynamicBreadcrumb />
             </div>
-            {/* <ModeToggle/> */}
           </div>
         </header>
         <div className="p-4 lg:pt-2">{children}</div>

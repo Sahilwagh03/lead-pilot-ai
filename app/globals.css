@@ -128,3 +128,29 @@
     @apply font-sans;
   }
 }
+
+@keyframes fade {
+  0% {
+    opacity: 0.6;
+    transform: scale(1) translateY(0px);
+    filter: blur(40px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.15) translateY(-10px);
+    filter: blur(60px);
+  }
+
+  100% {
+    opacity: 0.6;
+    transform: scale(1) translateY(0px);
+    filter: blur(40px);
+  }
+}
+
+.animate-fade {
+  animation: fade 2.5s ease-in-out infinite;
+}
+
+
