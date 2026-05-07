@@ -28,9 +28,9 @@ const AICallSimulation = ({ endCall }: { endCall: () => void }) => {
       {/* 🎛️ Controls */}
       <div className="relative z-10 flex justify-center gap-8 mb-6">
         {/* Mic */}
-        {/* <button className="group w-14 h-14 flex items-center justify-center rounded-full bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition-all duration-300 shadow-lg">
+        <button className="group w-14 h-14 flex items-center justify-center rounded-full bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition-all duration-300 shadow-lg">
           <Mic size={20} className="group-hover:scale-110 transition" />
-        </button> */}
+        </button>
 
         {/* End Call */}
         <Button className="cursor-pointer w-16 h-16 flex items-center justify-center rounded-full text-white bg-red-500 hover:bg-red-600 transition-all duration-300 shadow-[0_0_25px_rgba(239,68,68,0.6)]" onClick={endCall}>
@@ -38,9 +38,9 @@ const AICallSimulation = ({ endCall }: { endCall: () => void }) => {
         </Button>
 
         {/* Volume */}
-        {/* <button className="group w-14 h-14 flex items-center justify-center rounded-full bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition-all duration-300 shadow-lg">
+        <button className="group w-14 h-14 flex items-center justify-center rounded-full bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition-all duration-300 shadow-lg">
           <Volume2 size={20} className="group-hover:scale-110 transition" />
-        </button> */}
+        </button>
       </div>
     </div>
   );

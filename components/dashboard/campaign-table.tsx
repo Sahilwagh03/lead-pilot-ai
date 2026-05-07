@@ -28,9 +28,7 @@ type Campaign = {
 };
 
 const campaigns: Campaign[] = [
-  { id: "1", name: "Diwali Sales Campaign", status: "active" },
-  { id: "2", name: "Loan Recovery Drive", status: "paused" },
-  { id: "3", name: "Customer Follow-up", status: "completed" },
+  { id: "f62be0f2-740e-4a78-aba8-8e050906a11c", name: "Sales Campaign", status: "completed" },
 ];
 
 export default function CampaignTable() {
