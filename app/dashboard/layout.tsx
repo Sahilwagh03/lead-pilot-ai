@@ -8,8 +8,6 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar";
 import { DynamicBreadcrumb } from "@/components/dynamicBreadcrumb";
-// import { DynamicBreadcrumb } from "@/components/dynamicBreadcrumb";
-// import { ModeToggle } from "@/components/theme-toggle";
 
 type Props = {
   children: ReactNode;

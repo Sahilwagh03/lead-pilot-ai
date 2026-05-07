@@ -21,7 +21,7 @@ const data = {
   },
   teams: [
     {
-      name: "Lead Pilot AI",
+      name: "WaveIQ",
       logo: Logo,
       plan: "Enterprise",
     }

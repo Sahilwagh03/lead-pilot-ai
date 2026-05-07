@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Lead Pilot - AI",
+  title: "WaveIQ - AI Sales Assistant",
   description:
-    "Lead Pilot is an AI-powered sales assistant that helps you close more deals by providing real-time insights and recommendations during your sales calls.",
+    "WaveIQ is an AI-powered sales assistant that helps you close more deals by providing real-time insights and recommendations during your sales calls.",
 };
 
 export default function RootLayout({
